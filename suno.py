@@ -61,7 +61,7 @@ class Suno(Plugin):
             base_url = self._get_api_base_url()
             headers = self._get_headers()
             payload = self._get_payload(suno_prompt)
-            generate_music_url = f"{base_url}/suno/generate"
+            generate_music_url = f"{base_url}"
             # {
             #     "code": 200,
             #     "data": {
